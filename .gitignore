@@ -1,0 +1,16 @@
+# Build
+build/
+.gradle/
+run/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Local
+.claude/
+dev/
+Simulated-Project/
+Telekinesis_Icon.png
+externalmods/

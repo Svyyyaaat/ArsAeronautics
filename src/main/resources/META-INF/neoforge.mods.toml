@@ -1,0 +1,44 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mixins]]
+config = "ars_aeronautics.mixins.json"
+
+[[mods]]
+modId = "ars_aeronautics"
+version = "${file.jarVersion}"
+displayName = "Ars Aeronautics"
+authors = "Svyat"
+description = '''
+Ars Nouveau spell effects for interacting with Create Aeronautics contraptions.
+Push, pull, and manipulate physics-enabled contraptions with magic!
+'''
+
+[[dependencies.ars_aeronautics]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ars_aeronautics]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ars_aeronautics]]
+modId = "ars_nouveau"
+type = "required"
+versionRange = "[5.3,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.ars_aeronautics]]
+modId = "simulated"
+type = "required"
+versionRange = "[1.0,)"
+ordering = "AFTER"
+side = "BOTH"

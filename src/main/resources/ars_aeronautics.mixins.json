@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.svyat.arsaeronautics.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "mixins": [
+    "EffectKnockbackMixin",
+    "EffectPullMixin",
+    "EffectLaunchMixin",
+    "EffectGravityMixin",
+    "EffectRotateMixin",
+    "EffectSnareMixin",
+    "EffectSlowfallMixin",
+    "AbstractEffectBlockMixin",
+    "EffectBlinkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
