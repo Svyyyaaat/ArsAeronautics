@@ -17,7 +17,6 @@ Existing Ars Nouveau spells are extended via mixins to affect Sable SubLevels:
 - **Gravity** — Continuous downward force on a contraption for a duration. Stacks with Amplify.
 - **Snare** — Freezes a contraption in place by zeroing its velocity each tick.
 - **Slowfall** — Reduces a contraption's downward velocity, letting it drift gently.
-- **Levitate** — Continuous upward force (inverse of Gravity).
 - **Blink** — Teleport a contraption (and all riders/nearby entities) to a Warp Scroll destination. Supports same-dimension and cross-dimension teleportation, delayed teleport via Extend Time, and turret casting from spell turrets with adjacent inventory warp scrolls.
 
 ### New Spell: Telekinesis
