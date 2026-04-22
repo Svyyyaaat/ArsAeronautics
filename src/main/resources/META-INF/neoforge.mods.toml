@@ -37,6 +37,13 @@ ordering = "AFTER"
 side = "BOTH"
 
 [[dependencies.ars_aeronautics]]
+modId = "sable"
+type = "required"
+versionRange = "[1.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.ars_aeronautics]]
 modId = "simulated"
 type = "required"
 versionRange = "[1.0,)"
